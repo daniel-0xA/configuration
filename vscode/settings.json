@@ -1,0 +1,71 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "update.enableWindowsBackgroundUpdates": false,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "explorer.confirmDragAndDrop": false,
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "vue": "html",
+        "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "window.zoomLevel": 1,
+    "extensions.ignoreRecommendations": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+        // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "rest-client.enableTelemetry": false,
+    "gitlens.advanced.telemetry.enabled": false,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "update.mode": "none",
+    "prettier.printWidth": 160,
+    "prettier.tabWidth": 2,
+    "tabnine.experimentalAutoImports": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "vim.insertModeKeyBindings": [
+     {
+         "before": ["ö"],
+         "after": ["<esc>"]
+     },
+     {
+         "before": ["ä"],
+         "after": ["{"]
+     },
+     {
+         "before": ["Ä"],
+         "after": ["["]
+     },
+
+    ],
+    "vim.handleKeys":{
+        "<C-c>": false
+    },
+    "editor.renderWhitespace": "all",
+    "workbench.sideBar.location": "left",
+    "editor.minimap.enabled": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}
